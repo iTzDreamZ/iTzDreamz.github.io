@@ -1,0 +1,33 @@
+body{
+		background-color:white;
+		color:red;
+
+}
+
+a:link{
+		background-color:white;
+		color:black;
+
+}
+
+a:hover{
+		background-color:white;
+		color:pink;
+		font-size:25px;
+
+}
+
+img{
+		height:200px;
+
+}
+
+div{
+		background-color:white;
+		color:blue;
+		margin:40px;
+		padding:30px;
+		border-radius:25px;
+		text-align:center;
+
+}
