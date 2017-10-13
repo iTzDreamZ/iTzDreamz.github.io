@@ -5,5 +5,6 @@ function testJs(){
 }
 
 function shake8ball(){
-	document.getElementById("magic8ball")
+	document.getElementById("magic8ball").src="image.jpg"
+	alert("We shall see!");
 }
