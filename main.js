@@ -8,16 +8,19 @@ var list =["We shall see!",
 			"Try again later.",
 			"As I see it, yes.",
 			"Signs point to yes!"];
+function randomNumber(){
+	return Math.floor(Math.random() * 10);
+}
 
 function testJs(){
 	alert("test!");
 }
 
-function shake8ball(){
+function shakeMagic8ball(){
 	document.getElementById("magic8ball").src="giphy.gif";
-	alert("We shall see!");
+	//alert("We shall see!");
 
-	document.getElementById("results").innerhtml="We shall see!";
+	document.getElementById("results").innerHTML=list[randomNumber()];
 
-	alert(list[2]);
+	alert(randomNumber());
 }
