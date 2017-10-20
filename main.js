@@ -22,5 +22,5 @@ function shakeMagic8ball(){
 
 	document.getElementById("results").innerHTML=list[randomNumber()];
 
-	alert(randomNumber());
+	//alert(randomNumber());
 }
