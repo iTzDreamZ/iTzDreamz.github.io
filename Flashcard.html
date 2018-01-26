@@ -1,8 +1,8 @@
 <html> 
-
 	<head>
-		<title>Welcome</title>
+		<title>Flashcards</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="flashcards.js"></script>
 	</head>
 	<body style="background-color:purple;color:black;font-size:30px; ">
 		<div id="haha">
@@ -17,19 +17,22 @@
 				<a href="project.html">
 					Projects
 				</a>
-				<a href="Flashcard.html">
-					
-				</a>
+				
 			</nav>
 			<section>
-				<input type="text" value="">
+				<input type="text" id="operand1" value="2"/>
 				<br>
 				+
-				<input type="text" value="">
+				<br>
+				<input type="text" id="operand2" value="3"/>
+				<br>
 				----------------------------
-
+				<br>
+				<input type="text" id="answer" value="5"/>
+				<br>
+				<input type="button" onclick="addNumbers();"
+				 id=checkAnswer" value="Check Answer"/>
 			</section>
-				
 		</div>
 	</body>
 </html>
